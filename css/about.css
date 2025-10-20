@@ -1,7 +1,7 @@
-/* About Page Styles - Minimal & Fresh */
+/* About Page Styles - Dark Theme */
 .about-hero {
-    background: linear-gradient(135deg, #4A90E2 0%, #7ED321 100%);
-    color: white;
+    background: var(--bg-gradient-hero);
+    color: var(--text-primary);
     padding: 4rem 0 0;
     text-align: center;
     position: relative;
@@ -29,13 +29,13 @@
     display: block;
     width: 100%;
     height: auto;
-    fill: var(--bg-white);
+    fill: var(--bg-primary);
 }
 
 /* Our Story Section */
 .our-story {
     padding: 4rem 0;
-    background: var(--bg-white);
+    background: var(--bg-primary);
 }
 
 .story-grid {
@@ -84,7 +84,7 @@
 /* Mission & Vision */
 .mission-vision {
     padding: 4rem 0;
-    background: var(--bg-light);
+    background: var(--bg-secondary);
 }
 
 .mv-grid {
@@ -94,7 +94,7 @@
 }
 
 .mv-card {
-    background: var(--bg-white);
+    background: var(--bg-card);
     padding: 2rem;
     border-radius: var(--radius-md);
     text-align: center;
@@ -111,7 +111,7 @@
     width: 64px;
     height: 64px;
     margin: 0 auto 1.25rem;
-    background: var(--bg-light);
+    background: var(--bg-secondary);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@
 /* Statistics Section */
 .statistics {
     padding: 4rem 0;
-    background: var(--bg-white);
+    background: var(--bg-primary);
 }
 
 .statistics h2 {
@@ -176,7 +176,7 @@
 /* Team Section */
 .team-section {
     padding: 4rem 0;
-    background: var(--bg-light);
+    background: var(--bg-secondary);
 }
 
 .team-section h2 {
@@ -201,7 +201,7 @@
 }
 
 .team-member {
-    background: var(--bg-white);
+    background: var(--bg-card);
     border-radius: var(--radius-md);
     overflow: hidden;
     text-align: center;
@@ -218,7 +218,7 @@
     position: relative;
     height: 280px;
     overflow: hidden;
-    background: var(--bg-gray);
+    background: var(--bg-secondary);
 }
 
 .member-image img {
@@ -238,7 +238,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(74, 144, 226, 0.9);
+    background: rgba(139, 92, 246, 0.25);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +258,7 @@
 .member-overlay .social-links a {
     width: 36px;
     height: 36px;
-    background: var(--bg-white);
+    background: var(--bg-primary);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
@@ -295,7 +295,7 @@
 /* Why Choose Us */
 .why-choose {
     padding: 4rem 0;
-    background: var(--bg-white);
+    background: var(--bg-primary);
 }
 
 .why-choose h2 {
@@ -317,11 +317,11 @@
     padding: 2rem;
     border-radius: var(--radius-md);
     transition: var(--transition);
-    background: var(--bg-white);
+    background: var(--bg-card);
 }
 
 .feature-card:hover {
-    background: var(--bg-light);
+    background: var(--bg-secondary);
     transform: translateY(-4px);
 }
 
@@ -347,9 +347,9 @@
 /* CTA Section */
 .cta-section {
     padding: 3rem 0;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: var(--bg-gradient);
     text-align: center;
-    color: white;
+    color: var(--text-primary);
 }
 
 .cta-section h2 {
@@ -366,7 +366,7 @@
 }
 
 .cta-section .btn-primary {
-    background: var(--bg-white);
+    background: var(--bg-primary);
     color: var(--primary-color);
     padding: 0.8rem 2rem;
     font-size: 0.95rem;

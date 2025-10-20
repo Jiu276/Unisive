@@ -11,7 +11,7 @@ function loadArticle() {
     
     if (article) {
         // Update page title
-        document.title = `${article.title} - Universehive`;
+        document.title = `${article.title} - Unisive`;
         
         // Update article header
         document.getElementById('articleTitle').textContent = article.title;
