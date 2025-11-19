@@ -2,8 +2,13 @@
 const urlParams = new URLSearchParams(window.location.search);
 const articleId = urlParams.get('id') || 1;
 
-// Get article data from localStorage
-const articleData = JSON.parse(localStorage.getItem('articleData')) || [];
+// Get article data from localStorage, fallback to bundled data
+const storedArticleData = localStorage.getItem('articleData');
+const articleData = storedArticleData ? JSON.parse(storedArticleData) : (window.articleData || []);
+
+if (!storedArticleData && articleData.length) {
+    localStorage.setItem('articleData', JSON.stringify(articleData));
+}
 
 // Load article content
 function loadArticle() {
@@ -196,15 +201,20 @@ document.addEventListener('DOMContentLoaded', () => {
     loadArticle();
     
     // Add smooth scroll behavior
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        const hash = this.getAttribute('href');
+        if (!hash || hash === '#') {
+            return;
+        }
+
+        const target = document.querySelector(hash);
+        if (target) {
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
+});
 });
