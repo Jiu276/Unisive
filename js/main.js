@@ -205,7 +205,17 @@ function sortArticlesByDate() {
     
     // Add data-date attribute to each article based on articleData
     articles.forEach((article, index) => {
-        const articleId = parseInt(article.querySelector('a').href.split('id=')[1]);
+        // Skip if article already has data-sort-date attribute
+        if (article.hasAttribute('data-sort-date')) {
+            return;
+        }
+        
+        const link = article.querySelector('a');
+        if (!link || !link.href.includes('id=')) {
+            return;
+        }
+        
+        const articleId = parseInt(link.href.split('id=')[1]);
         const articleInfo = articleData.find(a => a.id === articleId);
         if (articleInfo) {
             // Parse date string like "August 15, 2025"
