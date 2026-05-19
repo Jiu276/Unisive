@@ -15,6 +15,8 @@ function loadArticle() {
     const article = articleData.find(a => a.id == articleId);
     
     if (article) {
+        document.documentElement.lang = article.lang || 'en';
+
         // Update page title
         document.title = `${article.title} - Unisive`;
         
@@ -22,20 +24,33 @@ function loadArticle() {
         document.getElementById('articleTitle').textContent = article.title;
         document.getElementById('articleCategory').textContent = article.category;
         document.getElementById('articleAuthor').textContent = article.author;
-        document.getElementById('articleDate').textContent = article.date;
+        const dateEl = document.getElementById('articleDate');
+        if (article.date) {
+            dateEl.textContent = article.date;
+            dateEl.style.display = '';
+        } else {
+            dateEl.textContent = '';
+            dateEl.style.display = 'none';
+        }
         document.getElementById('articleImage').src = article.image;
         document.getElementById('articleImage').alt = article.title;
         
-        // Calculate reading time
-        const wordCount = article.content.split(' ').length;
-        const readingTime = Math.ceil(wordCount / 200);
-        document.getElementById('readingTime').textContent = `${readingTime} min read`;
+        // Calculate reading time (strip HTML for word count)
+        const plain = article.content.replace(/<[^>]*>/g, ' ');
+        const wordCount = plain.trim().split(/\s+/).filter(Boolean).length;
+        const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+        const isIt = article.lang === 'it';
+        document.getElementById('readingTime').textContent = isIt
+            ? `${readingTime} min di lettura`
+            : `${readingTime} min read`;
         
         // Update article content
         document.getElementById('articleContent').innerHTML = article.content;
         
         // Update author bio
-        document.getElementById('bioAuthor').textContent = `About ${article.author}`;
+        document.getElementById('bioAuthor').textContent = isIt
+            ? `Su ${article.author}`
+            : `About ${article.author}`;
         
         // Update tags based on category
         updateTags(article.category);
@@ -43,6 +58,7 @@ function loadArticle() {
         // Load related articles
         loadRelatedArticles(article.category, article.id);
     } else {
+        document.documentElement.lang = 'en';
         // Article not found
         document.getElementById('articleContent').innerHTML = '<p>Article not found.</p>';
     }
@@ -56,6 +72,7 @@ function updateTags(category) {
         'Lifestyle': ['#lifestyle', '#wellness', '#mindfulness', '#living'],
         'Business': ['#business', '#entrepreneurship', '#marketing', '#strategy'],
         'Travel': ['#travel', '#adventure', '#explore', '#wanderlust'],
+        'Viaggi': ['#viaggi', '#mare', '#borse', '#mc2'],
         'Health': ['#health', '#fitness', '#nutrition', '#wellness']
     };
     

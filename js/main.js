@@ -217,15 +217,16 @@ function sortArticlesByDate() {
         
         const articleId = parseInt(link.href.split('id=')[1]);
         const articleInfo = articleData.find(a => a.id === articleId);
-        if (articleInfo) {
+        if (articleInfo && articleInfo.date && String(articleInfo.date).trim()) {
             // Parse date string like "August 15, 2025"
             const dateParts = articleInfo.date.split(' ');
             const month = monthOrder[dateParts[0]];
             const day = parseInt(dateParts[1].replace(',', ''));
             const year = parseInt(dateParts[2]);
-            // Create sortable date value (YYYYMMDD)
-            const sortableDate = year * 10000 + month * 100 + day;
-            article.setAttribute('data-sort-date', sortableDate);
+            if (month && day && year) {
+                const sortableDate = year * 10000 + month * 100 + day;
+                article.setAttribute('data-sort-date', sortableDate);
+            }
         }
     });
     
