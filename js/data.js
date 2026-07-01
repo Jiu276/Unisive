@@ -1089,6 +1089,60 @@ window.articleData = [
 
             <p>Se cerchi un solo punto d’ingresso per <a href="https://admin.rewardoo.com/track/5ee9_arF6Gxgbo6sEH_bz3ejGyamEhsNUziCv2nbHVwTOx7xzwrGJRXE6t_bgm5uHK081ai_aLwDO8HEbCzozAAp?source=inner&url=https%3A%2F%2Fit.mc2saintbarth.com%2F" target="_blank" rel="noopener">borse</a>, piccoli accessori in <a href="https://admin.rewardoo.com/track/5ee9_arF6Gxgbo6sEH_bz3ejGyamEhsNUziCv2nbHVwTOx7xzwrGJRXE6t_bgm5uHK081ai_aLwDO8HEbCzozAAp?source=inner&url=https%3A%2F%2Fit.mc2saintbarth.com%2F" target="_blank" rel="noopener">pelle</a> e <a href="https://admin.rewardoo.com/track/5ee9_arF6Gxgbo6sEH_bz3ejGyamEhsNUziCv2nbHVwTOx7xzwrGJRXE6t_bgm5uHK081ai_aLwDO8HEbCzozAAp?source=inner&url=https%3A%2F%2Fit.mc2saintbarth.com%2F" target="_blank" rel="noopener">accessori da viaggio</a> con trame <a href="https://admin.rewardoo.com/track/5ee9_arF6Gxgbo6sEH_bz3ejGyamEhsNUziCv2nbHVwTOx7xzwrGJRXE6t_bgm5uHK081ai_aLwDO8HEbCzozAAp?source=inner&url=https%3A%2F%2Fit.mc2saintbarth.com%2F" target="_blank" rel="noopener">intrecciate</a>, in <a href="https://admin.rewardoo.com/track/5ee9_arF6Gxgbo6sEH_bz3ejGyamEhsNUziCv2nbHVwTOx7xzwrGJRXE6t_bgm5uHK081ai_aLwDO8HEbCzozAAp?source=inner&url=https%3A%2F%2Fit.mc2saintbarth.com%2F" target="_blank" rel="noopener">pelle</a> o <a href="https://admin.rewardoo.com/track/5ee9_arF6Gxgbo6sEH_bz3ejGyamEhsNUziCv2nbHVwTOx7xzwrGJRXE6t_bgm5uHK081ai_aLwDO8HEbCzozAAp?source=inner&url=https%3A%2F%2Fit.mc2saintbarth.com%2F" target="_blank" rel="noopener">crinkle</a>, il boutique italiano è il posto giusto per confrontare le texture una accanto all’altra prima di decidere.</p>
         `
+    },
+    {
+        id: 30,
+        title: "From a Basement in Connecticut to My Morning Cup: How Harney & Sons Became My Daily Ritual",
+        category: "Lifestyle",
+        author: "Kate Whitfield",
+        date: "January 12, 2026",
+        image: "https://www.harney.com/cdn/shop/files/ht-english-breakfast-tins_46.jpg?v=1722953544&width=1200",
+        content: `
+            <p>I used to think tea was something you drank when you were sick or when the coffee machine broke. My mornings were a loud espresso shot, a glance at email, and out the door. Then my neighbor left a tin on my porch after a snowstorm—no note, just a gold lid and the words <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney & Sons</a> in small type—and I made a cup because the roads were bad and I had time. That was last January. I haven't gone back to my old routine since.</p>
+
+            <p>What surprised me wasn't that the tea tasted good. I expected that. It was how calm the whole thing felt. Boil water. Open the tin. One sachet. Wait four minutes instead of scrolling. The first sip of Hot Cinnamon Spice hit like someone turned down the volume in the kitchen. I looked up the company that night, half out of curiosity, half because the tin was already half empty.</p>
+
+            <h3>The Connecticut basement part is real</h3>
+            <p>On <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney</a>'s site I fell down a rabbit hole I didn't know I needed. John Harney started the company in 1983 from the basement of his house in Salisbury, Connecticut—same corner of New England where I'd spent a few summers as a kid visiting cousins in Litchfield County. He was fifty-three, no retirement fund, six blends, and a UPS driver who apparently had to deal with the family dogs barking at every pickup.</p>
+
+            <div class="featured-image">
+                <img src="https://www.harney.com/cdn/shop/articles/14187-002_-_Harney_MHSTT-Q1-Harney_Through_the_Decades-7.jpg?v=1771363546&width=1000" alt="Harney family tea legacy — official story imagery from harney.com">
+            </div>
+
+            <p>That detail stuck with me more than the glossy brand language. John had learned blending from Stanley Mason, an English tea man who sold Sarum tea out of the White Hart Inn basement before John went out on his own. His sons Mike and Paul joined years later—the "& Sons" wasn't marketing fluff, it was a bet that paid off. Today the operation is in Millerton, New York, with hundreds of teas and a warehouse you could get lost in, but the origin story still reads like a small business built on stubborn quality, not venture money.</p>
+
+            <h3>How it became a morning thing</h3>
+            <p>I didn't switch overnight. For a week I still made coffee first and tea second, like a backup plan. Then I noticed I was reaching for the kettle before the grinder. Part of it was taste—whole leaves in a sachet brew differently from the dusty bags at the grocery store, and once you've had a proper <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> of English Breakfast you notice what you've been putting up with. Part of it was the ritual itself: the four minutes where nothing is required of me except standing there.</p>
+
+            <div class="featured-image">
+                <img src="https://www.harney.com/cdn/shop/files/Mugs_19dad559-5cba-4b24-ad18-a4d174e1db40.webp?v=1717016986&width=800" alt="Harney & Sons teaware — morning cup at home">
+            </div>
+
+            <p>My kitchen is nothing special—rental countertops, a kettle with a broken lid that still works if you hold it right. But the <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> I use most is a heavy white mug I bought after reading that Mike Harney's father used to rip open competitor tea bags in hotel meetings and ask managers how they could serve "dust." Dramatic, maybe. Effective. I stopped buying the cheap box of fifty after that.</p>
+
+            <h3>What I actually order</h3>
+            <p>I'm not a collector. I keep maybe four things in rotation at any time. Hot Cinnamon Spice through winter—it's their bestseller for a reason, and I'm not fighting the crowd on that one. Paris black or Royal English Breakfast when I want something straight and strong before a long drive. In summer I switch to their Fresh Brew iced tea pouches because I'm too lazy to cold-brew loose leaf and the peach version tastes like something you'd pay eight dollars for at a café.</p>
+
+            <div class="featured-image">
+                <img src="https://www.harney.com/cdn/shop/files/2022_Gifts_Classic_Best_Sellers_80225.jpg?v=1770855519&width=800" alt="Harney & Sons Classic Collection tins and sachets">
+            </div>
+
+            <p>The site sells single tins, bags of fifty sachets, wrapped sachets for travel—I usually hit the free-shipping threshold at fifty-nine dollars and treat it like a pantry restock every six weeks or so. They also have a "perfect <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> of tea" quiz if you're starting from zero. I took it once out of boredom and it suggested a jasmine green I never would have picked myself. Turns out I like jasmine green at three in the afternoon when the coffee crash hits.</p>
+
+            <h3>Small things that matter</h3>
+            <p>Don't squeeze the sachet against the side of the mug. I learned that from a random forum post and it actually changed the flavor—less bitter, cleaner finish. Use water just off a boil for black tea, not rolling-boil water that sits for ten minutes. And give it the full steep time printed on the tin. I'm impatient by nature; waiting four minutes felt silly until I tasted the difference between two minutes and four.</p>
+
+            <div class="featured-image">
+                <img src="https://www.harney.com/cdn/shop/files/Pantry_e32fb432-841b-442b-944e-499b8288169d.webp?v=1717016832&width=800" alt="Harney & Sons pantry collection — tea tins and everyday staples">
+            </div>
+
+            <p>My husband still drinks coffee. No conversion speeches. But he asks for a <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> of Hot Cinnamon on Sunday mornings now, which I consider a minor victory. I've sent tins to my sister in Denver and my mother in Florida—easy gifts that don't feel generic because you can match the blend to the person.</p>
+
+            <h3>Why I'm still here a year later</h3>
+            <p>Plenty of companies sell good tea. What kept me with <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney & Sons</a> is the combination of quality and story that doesn't feel manufactured. Family-owned since the basement days. Blended and packaged in the US. A quality guarantee that sounds like corporate speak until you've opened a tin that actually smells like the thing it claims to be. John Harney died in 2014, but the sons still write on the company blog with the kind of detail you don't fake—UPS dogs, hotel tea bag demos, the phone number 1-800-TEA-TIME that Elyse used to call home for free in college.</p>
+
+            <p>I don't think tea fixed my life. I still rush. I still check my phone too early. But the first twenty minutes of most days now belong to a quiet <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a>, a Connecticut company that started in a basement forty years ago, and a habit I picked up because a neighbor was kind on a snow day. If you're looking for a morning ritual that isn't another subscription app or a thirty-dollar journal, start with one tin from <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney</a>. Pick Hot Cinnamon if you want warmth, English Breakfast if you want straightforward, or take the quiz and let someone else decide. Just give it four minutes. That's the part I almost skipped, and it's the whole point.</p>
+        `
     }
 ];
 
