@@ -1096,6 +1096,8 @@ window.articleData = [
         category: "Lifestyle",
         author: "Kate Whitfield",
         date: "January 12, 2026",
+        clicks: 18400,
+        orders: 184,
         image: "https://www.harney.com/cdn/shop/files/ht-english-breakfast-tins_46.jpg?v=1722953544&width=1200",
         content: `
             <p>I used to think tea was something you drank when you were sick or when the coffee machine broke. My mornings were a loud espresso shot, a glance at email, and out the door. Then my neighbor left a tin on my porch after a snowstorm—no note, just a gold lid and the words <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney & Sons</a> in small type—and I made a cup because the roads were bad and I had time. That was last January. I haven't gone back to my old routine since.</p>
@@ -1121,7 +1123,7 @@ window.articleData = [
             <p>My kitchen is nothing special—rental countertops, a kettle with a broken lid that still works if you hold it right. But the <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> I use most is a heavy white mug I bought after reading that Mike Harney's father used to rip open competitor tea bags in hotel meetings and ask managers how they could serve "dust." Dramatic, maybe. Effective. I stopped buying the cheap box of fifty after that.</p>
 
             <h3>What I actually order</h3>
-            <p>I'm not a collector. I keep maybe four things in rotation at any time. Hot Cinnamon Spice through winter—it's their bestseller for a reason, and I'm not fighting the crowd on that one. Paris black or Royal English Breakfast when I want something straight and strong before a long drive. In summer I switch to their Fresh Brew iced tea pouches because I'm too lazy to cold-brew loose leaf and the peach version tastes like something you'd pay eight dollars for at a café.</p>
+            <p>I'm not a collector. I keep maybe four things in rotation at any time. Hot Cinnamon Spice through winter—it's their bestseller for a reason, and I'm not fighting the crowd on that one. Paris or Royal English Breakfast when I want something straight and strong before a long drive. In summer I switch to their Fresh Brew iced tea pouches because I'm too lazy to cold-brew loose leaf and the peach version tastes like something you'd pay eight dollars for at a café.</p>
 
             <div class="featured-image">
                 <img src="https://www.harney.com/cdn/shop/files/2022_Gifts_Classic_Best_Sellers_80225.jpg?v=1770855519&width=800" alt="Harney & Sons Classic Collection tins and sachets">
@@ -1136,12 +1138,12 @@ window.articleData = [
                 <img src="https://www.harney.com/cdn/shop/files/Pantry_e32fb432-841b-442b-944e-499b8288169d.webp?v=1717016832&width=800" alt="Harney & Sons pantry collection — tea tins and everyday staples">
             </div>
 
-            <p>My husband still drinks coffee. No conversion speeches. But he asks for a <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> of Hot Cinnamon on Sunday mornings now, which I consider a minor victory. I've sent tins to my sister in Denver and my mother in Florida—easy gifts that don't feel generic because you can match the blend to the person.</p>
+            <p>My husband still drinks coffee. No conversion speeches. But he asks for a <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a> of Hot Cinnamon Spice on Sunday mornings now, which I consider a minor victory. I've sent tins to my sister in Denver and my mother in Florida—easy gifts that don't feel generic because you can match the blend to the person.</p>
 
             <h3>Why I'm still here a year later</h3>
             <p>Plenty of companies sell good tea. What kept me with <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney & Sons</a> is the combination of quality and story that doesn't feel manufactured. Family-owned since the basement days. Blended and packaged in the US. A quality guarantee that sounds like corporate speak until you've opened a tin that actually smells like the thing it claims to be. John Harney died in 2014, but the sons still write on the company blog with the kind of detail you don't fake—UPS dogs, hotel tea bag demos, the phone number 1-800-TEA-TIME that Elyse used to call home for free in college.</p>
 
-            <p>I don't think tea fixed my life. I still rush. I still check my phone too early. But the first twenty minutes of most days now belong to a quiet <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a>, a Connecticut company that started in a basement forty years ago, and a habit I picked up because a neighbor was kind on a snow day. If you're looking for a morning ritual that isn't another subscription app or a thirty-dollar journal, start with one tin from <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney</a>. Pick Hot Cinnamon if you want warmth, English Breakfast if you want straightforward, or take the quiz and let someone else decide. Just give it four minutes. That's the part I almost skipped, and it's the whole point.</p>
+            <p>I don't think tea fixed my life. I still rush. I still check my phone too early. But the first twenty minutes of most days now belong to a quiet <a href="https://www.harney.com/" target="_blank" rel="noopener">cup</a>, a Connecticut company that started in a basement forty years ago, and a habit I picked up because a neighbor was kind on a snow day. If you're looking for a morning ritual that isn't another subscription app or a thirty-dollar journal, start with one tin from <a href="https://www.harney.com/" target="_blank" rel="noopener">Harney</a>. Pick Hot Cinnamon Spice if you want warmth, English Breakfast if you want straightforward, or take the quiz and let someone else decide. Just give it four minutes. That's the part I almost skipped, and it's the whole point.</p>
         `
     }
 ];

@@ -20,7 +20,8 @@
     flex-wrap: wrap;
 }
 
-.reading-time {
+.reading-time,
+.article-clicks {
     color: var(--text-light);
     font-size: 0.85rem;
 }

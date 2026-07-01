@@ -3,11 +3,24 @@ const urlParams = new URLSearchParams(window.location.search);
 const articleId = urlParams.get('id') || 1;
 
 // Get article data from localStorage, fallback to bundled data
+const ARTICLE_DATA_VERSION = '2';
+const storedVersion = localStorage.getItem('articleDataVersion');
 const storedArticleData = localStorage.getItem('articleData');
-const articleData = storedArticleData ? JSON.parse(storedArticleData) : (window.articleData || []);
+const articleData = storedArticleData && storedVersion === ARTICLE_DATA_VERSION
+    ? JSON.parse(storedArticleData)
+    : (window.articleData || []);
 
-if (!storedArticleData && articleData.length) {
+if (articleData.length && (!storedArticleData || storedVersion !== ARTICLE_DATA_VERSION)) {
     localStorage.setItem('articleData', JSON.stringify(articleData));
+    localStorage.setItem('articleDataVersion', ARTICLE_DATA_VERSION);
+}
+
+/**
+ * @param {number} count
+ * @returns {string}
+ */
+function formatClickCount(count) {
+    return count.toLocaleString('en-US');
 }
 
 // Load article content
@@ -43,6 +56,15 @@ function loadArticle() {
         document.getElementById('readingTime').textContent = isIt
             ? `${readingTime} min di lettura`
             : `${readingTime} min read`;
+
+        const clicksEl = document.getElementById('articleClicks');
+        if (article.clicks) {
+            clicksEl.innerHTML = `<i class="far fa-eye"></i> ${formatClickCount(article.clicks)} clicks`;
+            clicksEl.hidden = false;
+        } else {
+            clicksEl.innerHTML = '';
+            clicksEl.hidden = true;
+        }
         
         // Update article content
         document.getElementById('articleContent').innerHTML = article.content;
