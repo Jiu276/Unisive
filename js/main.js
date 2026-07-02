@@ -11,7 +11,7 @@ menuToggle?.addEventListener('click', () => {
 const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
 const blogGrid = document.getElementById('blogGrid');
-const ARTICLE_DATA_VERSION = '2';
+const ARTICLE_DATA_VERSION = '3';
 const articleData = window.articleData || [];
 
 if (articleData.length) {

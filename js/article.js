@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const articleId = urlParams.get('id') || 1;
 
 // Get article data from localStorage, fallback to bundled data
-const ARTICLE_DATA_VERSION = '2';
+const ARTICLE_DATA_VERSION = '3';
 const storedVersion = localStorage.getItem('articleDataVersion');
 const storedArticleData = localStorage.getItem('articleData');
 const articleData = storedArticleData && storedVersion === ARTICLE_DATA_VERSION
